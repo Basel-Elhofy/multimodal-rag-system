@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+!.env.example
+
+# Data / runtime (do not commit large binaries or local DBs)
+data/
+uploads/*
+!uploads/.gitkeep
+*.db
+*.sqlite3
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
